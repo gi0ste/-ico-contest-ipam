@@ -15,6 +15,7 @@ The above workflow rely on the below custom task:
  - Infoblox - Get next available IPv4 address
  - Infoblox - Reserve Next Available IPv4 address
  - Infoblox - Delete IPv4 Reservation
+ - Infoblox - Infoblox - Reserve IPv4 Address
 
 
 ## Technical Information
@@ -63,6 +64,10 @@ Reserve the next available IPv4 in a network.
 ### Infoblox - Delete IPv4 Reservation
 Delete an IPv4 Reservation
 ![This is an image](images/delete-ipv4-reservation.png)
+
+### Infoblox - Infoblox - Reserve IPv4 Address
+Reserve a custom IPv4 Address
+![This is an image](images/reserve-custom-ipv4.png)
 
 ## Sample Workflow: Create a VM and assign dynamically an IP released by IPAM
 
