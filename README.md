@@ -78,13 +78,12 @@ Youtube video link: https://youtu.be/9G92L1j_4Sc
 ## Sample Workflow: Create a VM and assign dynamically an IP released by IPAM
 
 The below workflow simply deploy a new VM, attach a new network, and assign dynamically an IP released by  IPAM. The workflow has been built relying on the above custom task. The workflow make use of one custom task:
- - Reserve Next Available IPv4 address
+ - Infoblox - Get network reference from subnet
+ - Infoblox - Get next available IPv4 address
+ - Infoblox - Infoblox - Reserve IPv4 Address
 
-The workflow requires the following input:
- - VM Name: the name to assign to the newly created VM
- - The network where to get the IP in CIDR notation (e.g. 192.168.200.0/24)
- - Hostname: the hostname assigned to ther VM
+Youtube video link: https://youtu.be/KpChPpUJuxo
 
 
-![This is an image](images/workflow.png)
+![This is an image](images/wf_sample_two.png)
 
