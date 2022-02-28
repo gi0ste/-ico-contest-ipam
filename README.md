@@ -69,6 +69,12 @@ Delete an IPv4 Reservation
 Reserve a custom IPv4 Address
 ![This is an image](images/reserve-custom-ipv4.png)
 
+## Basic Workflow: Get the first available IPv4 from Infoblox from a fiven network.
+The below workflow simple combine the two task created before to get the IPv4 from Infoblox.
+
+Youtube video link: https://youtu.be/9G92L1j_4Sc
+![This is an image](images/wf_sample_one.png)
+
 ## Sample Workflow: Create a VM and assign dynamically an IP released by IPAM
 
 The below workflow simply deploy a new VM, attach a new network, and assign dynamically an IP released by  IPAM. The workflow has been built relying on the above custom task. The workflow make use of one custom task:
