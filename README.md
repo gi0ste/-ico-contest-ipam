@@ -1,4 +1,4 @@
-# Repo for the ICO February Contest
+# Repo for ICO IPAM (Infoblox) Integration
 
 As of today, IPAM is a fundamental step in the provisioning process. However, maintaining a list of several IP addresses is cumbersome. We all need to have an IP (for VM, storage, servers, etc.), and for that reason, the industry comes out with an IPAM solution. 
 
